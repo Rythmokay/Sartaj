@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Sartaj Ansari</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Occupation</a></li>
+          <li><a href="#projects">Images</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Sartaj Ansari</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic .png" alt="Sartaj Ansari profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Sartaj Ansari</h1>
+        <p class="section__text__p2">Gym Trainer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('https://www.google.com/maps/dir//J7XM%2BP7C,+New+Govindpura,+Krishna+Nagar,+Delhi,+110051/@28.6492837,77.2007478,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x390cfca1042395e5:0xba45e1cc355d885b!2m2!1d77.283159!2d28.6493088?entry=ttu')"
+          >
+            Find Gym 
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Me 
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://instagram.com/sartajansari_official?igshid=MzRlODBiNWFlZA=='"
+          />
+          <img
+            src="./assets/what.png"
+            alt="My Find Gym profile"
+            class="icon"
+            onclick="location.href='tel:+91 8076459281'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-pic.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>8+ years <br />Gym Trainer</p>
+            </div>
+            
+          <div class="text-container">
+            <p>
+              I'm Sartaj Ansari, a passionate gym trainer and personal fitness coach at Arm Blaster Gym in New Govindpura, Krishna Nagar, Delhi. With years of experience, I'm dedicated to helping you reach your fitness goals. My customized programs cater to your unique needs, ensuring safe and effective workouts. I'm not just a trainer; I'm your motivator, fostering a positive mindset. If you're in the Krishna Nagar area and seeking a fitness transformation, join me at Arm Blaster Gym and start your journey to a healthier lifestyle today!
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">occupation</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">How I earn? </h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Building a Fitness Community </h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Protein and Supplement Sales</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Gym Wear Retail</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Nutritional Guidance</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Business Management</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Continuous Learning</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">My Expertise</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Fitness Training Mastery</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Nutrition & Supplement Expertise</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Customized Training Programs</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Personalized Fitness Solutions</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Keto diet and Personalized Workout </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.google.com/maps/dir//J7XM%2BP7C,+New+Govindpura,+Krishna+Nagar,+Delhi,+110051/@28.6492837,77.2007478,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x390cfca1042395e5:0xba45e1cc355d885b!2m2!1d77.283159!2d28.6493088?entry=ttu'"
+              >
+                Find Gym
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://wa.me/918076459281'"
+              >
+                Contact Me
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Some Glimpse of Arm Blaster gym</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.google.com/maps/dir//J7XM%2BP7C,+New+Govindpura,+Krishna+Nagar,+Delhi,+110051/@28.6492837,77.2007478,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x390cfca1042395e5:0xba45e1cc355d885b!2m2!1d77.283159!2d28.6493088?entry=ttu'"
+              >
+                Find Gym
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://wa.me/918076459281'"
+              >
+                Contact Me
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-3.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Some Glimpse of Gym Equipments</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.google.com/maps/dir//J7XM%2BP7C,+New+Govindpura,+Krishna+Nagar,+Delhi,+110051/@28.6492837,77.2007478,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x390cfca1042395e5:0xba45e1cc355d885b!2m2!1d77.283159!2d28.6493088?entry=ttu'"
+              >
+                Find Gym
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://wa.me/918076459281'"
+              >
+                Contact Me
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/what.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="https://wa.me/918076459281">My Whatsapp number</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://instagram.com/sartajansari_official?igshid=MzRlODBiNWFlZA==">My Instagram</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Occupation</a></li>
+            <li><a href="#projects">Images</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <a href="https://www.linkedin.com/in/rythm-jagga-16708a250/"><p>Copyright &#169; 2023 Rythm Jagga. All Rights Reserved.</p></a>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
